@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!--#include virtual="test.shtml" -->
+<!--#include virtual="global.shtml" -->
+<!--#include file="test.shtml" -->
+<!--#include file="global.shtml" -->
+<!--#echo var="DATE_LOCAL" -->
+
+<html>
+	<head>
+		<title>Nanbendo!</title>	<!-- may want to customize by page-->
+		<link rel="shortcut icon" href=nanbendoIconPrototype.ico />
+		<!--#include virtual="test.shtml" -->
+		<!--#include virtual="global.shtml" -->
+		<!--#include file="test.shtml" -->
+		<!--#include file="global.shtml" -->
+		<!--#echo var="DATE_LOCAL" -->
+	</head>
+	
+	<body>
+		<!--#echo var="DATE_LOCAL" -->
+		<!--#include virtual="test.shtml" -->
+		<!--#include virtual="global.shtml" -->
+		<!--#include file="test.shtml" -->
+		<!--#include file="global.shtml" -->
+		<!--#include file="test.txt" -->
+		<p>
+			<h4 style="text-align:center">
+				<a href=index.html>Homepage</a>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<a href=about.html>About Nanbendo</a>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<a href=projects.html>Projects</a>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<a href=mailinglist.html>Join our Mailing List!</a>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<a href=news.html>News</a>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<a href=comingsoon.html>Coming Soon!</a>
+			</h4>
+		</p>
+		<p style="text-align:center">
+			<a href=index.html><img src=nanbendoLogoPrototype.png /></a>
+		</p>
+		<p style="text-align:center">
+			<a href="http://www.facebook.com">Join us on facebook</a>
+			to show support! <!--next: change link to nanbendo page-->
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href=mailinglist.html>Join our mailing list</a>
+			for future updates! <!--next: make mailing list functional-->
+		</p>
+		<br>
+		<!-- START PAGE-SPECIFIC CONTENT -->
+		<p>
+			<h2><em>Join our Mailing List!</em></h2>
+			Join our mailing list to receive updates about new projects
+			that are coming, new versions of current projects, etc. This
+			is also another easy way to show your support! We promise
+			we won't send too much!
+			<br><br>
+			{ Form coming soon }
+			<br><br>
+			<h3>Unsubscribe</h3>
+			To unsubscribe from our mailing list, enter your email below.
+			<br><br>
+			{ Form coming soon }
+		</p>
+		<!-- END PAGE-SPECIFIC CONTENT -->
+		<br><br>
+		<p><h5>Comments? Questions? Suggestions? High Praise?!
+		Contact us at: {email feature coming soon}</h5></p>
+		<p><h5>&copy;Copyright 2014 Nathan LaPierre and Ben Ward</h5></p>
+	</body>
+</html>

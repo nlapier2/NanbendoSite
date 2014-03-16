@@ -1,0 +1,19 @@
+<p>
+	<h1>Welcome to Nate's Contacts!</h1>
+	<strong>More features</strong> to come soon, including...
+	<br>
+	<ul>
+		<li>HTML <u>forms and tables</u>!</li>
+		<li><u>CSS</u> Styling!</li>
+		<li><u>JavaScript</u> behaviors!</li>
+		<ul>
+			<li>Use of <u>jQuery</u></li>
+			<li><u>Backbone.js</u> and/or <u>AngularJS</u></li>
+			<li>Maybe <u>Node.js</u> backend?</li>
+		</ul>
+		<li>Backend written in <u>PHP</u> (and/or <u>Node.js</u>)!</li>
+		<li><u>MySQL</u> or <u>MongoDB</u> server!</li>
+	</ul>
+</p>
+<p><h2>Stay tuned!</h2></p>
+<small>&copy; Nathan LaPierre, 2014</small>
