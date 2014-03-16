@@ -3,3 +3,22 @@ well as files named "test" are currently just being used for testing and are
 not in production. All other files are in production, with index.html being
 the default homepage file. Only html has been done so far; CSS, JS, PHP/Node,
 and MySQL are yet to come. This can be considered version 1.0.
+
+Notes:
+It's just basic HTML right now, with a logo I made up but albeit one that I
+like. With that being said, here's what's coming up:
+
+Basic Functionality
+- Mailing list forms (can be set up in HTML but won't be functional until the
+database is set up
+- Email us / contact us feature (could just put in plaintext email
+(nanbendo@gmail.com), but could also have the feature where it redirects to
+the default email client when you click the link)
+- Server side include of global.html (so you don't have to change every file
+when you change the global template; this could be done via Apache or PHP)
+
+New Components
+- CSS Styling
+- Javascript behavior (jQuery + backbone.js?)
+- PHP or Node.js backend
+- MySQL database (mainly for mailing list and highscore tables)
