@@ -1,0 +1,5 @@
+This is the source code for the nanbendo site. All files ending in .shtml, as
+well as files named "test" are currently just being used for testing and are
+not in production. All other files are in production, with index.html being
+the default homepage file. Only html has been done so far; CSS, JS, PHP/Node,
+and MySQL are yet to come. This can be considered version 1.0.
