@@ -1,0 +1,32 @@
+a {
+	font-family:Arial,Serif;
+}
+
+a:link {
+	color:#cc0000;
+	text-decoration:none;
+}
+
+a:visited {
+	color:#cc0000;
+	text-decoration:none;
+}
+
+a:hover {
+	font-family:Arial Black, Serif;
+	color:#cc0000;
+	text-decoration:none;
+}
+
+#sitelinks {
+	text-align:center;
+	position:fixed;
+	background-color:#FFFFFF;
+	width:100%;
+	margin:-1em;
+	padding:1em;
+}
+
+#sitelinks li {
+	display:inline;
+}
