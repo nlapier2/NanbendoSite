@@ -1,26 +1,21 @@
-.standard {
-	font-size:1em;
+body {	
 	font-family:Georgia,Serif;
-	padding-left:0.5em;
-	padding-right:0.5em;
+	background-color: #F7EBEB;
+	text-align:center;
+	margin:auto;
+}
+
+.standard {
+	color: #570000;
 }
 
 a {
+	color:#cc0000;
+	text-decoration:none;
 	font-family:Georgia,Serif;
 }
 
-a:link {
-	color:#cc0000;
-	text-decoration:none;
-}
-
-a:visited {
-	color:#cc0000;
-	text-decoration:none;
-}
-
 a:hover {
-	color:#cc0000;
 	text-decoration:underline;
 	font-style:italic;
 }
@@ -30,9 +25,9 @@ a:hover {
 	position:fixed;
 	background-color:#FFE0CB;
 	width:100%;
-	margin:-1em;
-	padding:1em;
-	border-radius:10px;
+	margin-top:-1em;
+	padding-top:1em;
+	padding-bottom:1em;
 }
 
 #sitelinks li {
@@ -43,10 +38,9 @@ a:hover {
 }
 
 #facemail {
-	font-size: 0.95em;
+	font-size: 0.9em;
 	text-align:center;
 	width:100%;
-	margin-left:-2.5em;
 	padding-top:0.5em;
 	padding-bottom:1em;
 }
@@ -58,22 +52,23 @@ a:hover {
 	font-family: Georgia, Serif;
 }
 
-h5 {
-	font-size:0.8em;
-	font-weight:600;
+#sitefooter {
+	font-size:0.85em;
+	text-align:center;
+	background-color:#FFE0CB;
+
+	padding-bottom: 1em;
+}
+
+#foothr {
+
 }
 
 .blueback {
 	background-color:#CBFFFF;
-	margin-left:-1em;
-	margin-right:-1em;
-}
 
-/*.greenback {
-	background-color:#CBFFD1;
-	margin-left:-1em;
-	margin-right:-1em;
-}*/
+	
+}
 
 h1 {
 	font-size: 2.2em;
@@ -85,9 +80,22 @@ h1 {
 h2 {
 	font-size: 1.7em;
 	font-style: italic;
+	color:#cc0000;
 }
 
 h3 {
 	font-size: 1.2em;
 	font-style: italic;
+	color:black;
+}
+
+.generaltext {
+	font-size:1em;
+	max-width:40em;
+	margin:auto;
+}
+
+ul {
+	list-style-type:none;
+	padding:0px;
 }
