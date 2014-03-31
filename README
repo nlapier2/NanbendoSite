@@ -1,12 +1,14 @@
 This is the source code for the nanbendo site. All files ending in .shtml, as
 well as files named "test" are currently just being used for testing and are
 not in production. All other files are in production, with index.html being
-the default homepage file. Only html has been done so far; CSS, JS, PHP/Node,
-and MySQL are yet to come. This can be considered version 1.0.
+the default homepage file. Only HTML and CSS have been done so far; JavaScript,
+PHP/Node, and MySQL are yet to come. This can be considered version 2.0.
 
 Notes:
-It's just basic HTML right now, with a logo I made up but albeit one that I
-like. With that being said, here's what's coming up:
+The CSS, while still a work in progress, has come along pretty well and is
+ready for production. The HTML and CSS have been modified together and will
+both continue to be updated as needed, but they have come along nicely, and
+the main focus going forward should be completing the following tasks:
 
 Basic Functionality
 - Mailing list forms (can be set up in HTML but won't be functional until the
@@ -18,7 +20,6 @@ the default email client when you click the link)
 when you change the global template; this could be done via Apache or PHP)
 
 New Components
-- CSS Styling
 - Javascript behavior (jQuery + backbone.js?)
 - PHP or Node.js backend
 - MySQL database (mainly for mailing list and highscore tables)
