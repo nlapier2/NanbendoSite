@@ -1,5 +1,12 @@
+.standard {
+	font-size:1em;
+	font-family:Georgia,Serif;
+	padding-left:0.5em;
+	padding-right:0.5em;
+}
+
 a {
-	font-family:Arial,Serif;
+	font-family:Georgia,Serif;
 }
 
 a:link {
@@ -13,20 +20,74 @@ a:visited {
 }
 
 a:hover {
-	font-family:Arial Black, Serif;
 	color:#cc0000;
-	text-decoration:none;
+	text-decoration:underline;
+	font-style:italic;
 }
 
 #sitelinks {
 	text-align:center;
 	position:fixed;
-	background-color:#FFFFFF;
+	background-color:#FFE0CB;
 	width:100%;
 	margin:-1em;
 	padding:1em;
+	border-radius:10px;
 }
 
 #sitelinks li {
 	display:inline;
+	padding-left:0.5em;
+	padding-right:0.5em;
+	font-family:Georgia,Serif;
+}
+
+#facemail {
+	font-size: 0.95em;
+	text-align:center;
+	width:100%;
+	margin-left:-2.5em;
+	padding-top:0.5em;
+	padding-bottom:1em;
+}
+
+#facemail li {
+	display:inline;
+	padding-left:2em;
+	padding-right:2em;
+	font-family: Georgia, Serif;
+}
+
+h5 {
+	font-size:0.8em;
+	font-weight:600;
+}
+
+.blueback {
+	background-color:#CBFFFF;
+	margin-left:-1em;
+	margin-right:-1em;
+}
+
+/*.greenback {
+	background-color:#CBFFD1;
+	margin-left:-1em;
+	margin-right:-1em;
+}*/
+
+h1 {
+	font-size: 2.2em;
+	font-style:italic;
+	font-weight:bold;
+	color:#cc0000;
+}
+
+h2 {
+	font-size: 1.7em;
+	font-style: italic;
+}
+
+h3 {
+	font-size: 1.2em;
+	font-style: italic;
 }
